@@ -1,0 +1,16 @@
+1) How to build a dockerfile:
+-----------------------------
+Commands used to build a docker file are listed below,
+
+a) ADD [ source directory or URL ] [ destination directory ]
+b) CMD "APPLICATION" "ARGUMENTS"
+c) ENTRYPOINT application "arguments"
+d) ENV SERVER_WORKS 4
+e) EXPOSE [PORT] #EXPOSE 8080
+f) FROM [image name] # FROM ubuntu
+g) MAINTAINER [authors name] 
+h) RUN [command] #RUN apt-get install
+i) USER [uid] #USER 751
+j) VOLUME [ "dir_1", "dir_2", .. ]
+k) WORKDIR /path/
+

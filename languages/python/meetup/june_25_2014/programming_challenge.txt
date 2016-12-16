@@ -1,0 +1,131 @@
+Hot Date with iter tools:
+-------------------------
+
+A Hot Date With itertools
+
+[inspired by http://www.dgp.toronto.edu/~flaps/progprobs.html]
+
+Consider these base-10 digits: 123456789. If you insert spaces between them, you get various sequences of numbers:
+
+1 2 3 4 5 6 7 8 9
+12 3 4 5 67 8 9
+1 2 34 5 6 7 89
+12 34 56 78 9
+1 23456 78 9
+12345 6789
+etc.
+1) Write a program that generates all possible combinations of those digits.
+
+How many are there?
+
+Now let's insert a maximum of 8 addition or subtraction operators between the numbers, like this:
+
+1+2+3+4+5+6+7-8+9
+12-3+4+5-67-8+9
+1+2+34+5-6-7-89
+12-34+56+78+9
+1+23456-78-9
+12345+6789
+etc.
+Notice that those arithmetic expressions equate to different values:
+
+1+2+3+4+5+6+7-8+9 = 29
+12-3+4+5-67-8+9 = -48
+1+2+34+5-6-7-89 = -60
+12-34+56+78+9 = 121
+1+23456-78-9 = 23370
+12345+6789 = 19134
+etc.
+2) Write a program that generates all possible expressions in this way.
+
+How many sum to 100?
+
+3) Write a program that finds all such expressions for any sum.
+
+Which sum is the most popular, i.e. has the most expressions?
+
+4) Bonus: We can haz pretty data viz?
+
+Like how about a histogram of the number of expressions with sums from -23456788 to 123456789. (A log scale might help. Maybe binning, too.)
+
+
+Twitter Puddle
+---------------
+November 15, 2013
+We have today an interview question from Twitter:
+
+Consider the following picture:
+
+
+
+In this picture we have walls of different heights. This picture is represented by an array of integers, where the value at each index is the height of the wall. The picture above is represented with an array as [2,5,1,2,3,4,7,7,6].
+
+Now imagine it rains. How much water is going to be accumulated in puddles between walls?
+
+
+
+We count volume in square blocks of 1X1. So in the picture above, everything to the left of index 1 spills out. Water to the right of index 7 also spills out. We are left with a puddle between 1 and 6 and the volume is 10.
+
+Your task is to write a program to compute the volume of water in the puddle; you should strive for an algorithm that completes the task in a single pass. When you are finished, you are welcome to read or run a suggested solution, or to post your own solution or discuss the exercise in the comments below.
+
+
+Python Poetry
+--------------
+
+You find yourself in a dark, wet cave. There is a heavy door with a mushroom growing on it. (Or is that an ear?)
+
+Nailed to the door is a poem by Emily Dickinson:
+
+'''a narrow fellow in the grass
+occasionally rides;
+you may have met him, did you not,
+his notice sudden is.
+
+the grass divides as with a comb,
+a spotted shaft is seen;
+and then it closes at your feet
+and opens further on.
+
+he likes a boggy acre,
+a floor too cool for corn.
+yet when a child, and barefoot,
+i more than once, at morn,
+
+have passed, i thought, a whip-lash
+unbraiding in the sun,
+when, stooping to secure it,
+it wrinkled, and was gone.
+
+several of nature's people
+i know, and they know me;
+i feel for them a transport
+of cordiality;
+
+but never met this fellow,
+attended or alone,
+without a tighter breathing,
+and zero at the bone.'''
+Below the poem is a riddle:
+
+say([56,38,44,56,29])
+And below that, a note:
+
+# hint: 'zebra' = [1,56,7,29,42]
+1) Write a program that solves the riddle.
+
+What do you say?
+
+2) Write a program that shows the mapping for all letters.
+
+Which letters are available, i.e. have unique non-zero values?
+
+3) Write a program that generates all such riddles based on this poem.
+
+What is the longest word that is a solution to a riddle based on this poem? (useful: Words (Unix))
+
+
+Solutions:
+----------
+Solutions can be found at http://nbviewer.ipython.org/github/allendowney/ThinkStats2/blob/master/code/puzzle1.ipynb
+
+

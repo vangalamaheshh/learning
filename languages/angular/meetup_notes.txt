@@ -1,0 +1,14 @@
+July, 20, 2016: Bocoup - Angular lightning talks:
+
+- 4 talks total
+
+1) Mediator pattern in AngularJS applications (example of openBoM.com)
+
+- sharejs.org
+
+
+2) Typescript in angular 1.x
+- 
+
+3) Typescript in nodejs on server side:
+

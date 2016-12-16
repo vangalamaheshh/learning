@@ -1,0 +1,14 @@
+Speaker: Brad Chapman
+http://bcb.io
+http://
+
+Scalable variant calling pipeline/framework:
+--------------------------------------------
+* BCBio
+* 
+
+Speaker: Enoch Huang 
+
+Clues for clueless:
+-------------------
+

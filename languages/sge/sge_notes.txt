@@ -1,0 +1,69 @@
+* users can submit batch jobs, interactive jobs and parallel jobs to the grid
+
+* jobs are put in holding area, later sent to execution device, jobs can be managed and logs of record of job execution upon completion.
+
+* 4 types of hosts: 1) Master host 2) Execution host 3) Administration host and 4) Submit host.
+
+* The master host runs both master daemon, sge_qmaster and the scheduler daemon, sge_schedd. They both together control queues and jobs.
+
+* By default, master host is also an administration host and submit host.
+
+* Execution hosts are the computers with permissions to execute jobs.
+
+* Execution host runs execution daemon, sge_execd.
+
+* users can submit jobs with qsub command, and monitor using qstat command.
+
+* To get a list of currently configured ACLs: qconf -sul 
+
+* To list the entries in one or more ACLs: qconf -su ACL1_name, ACL2_name, ...
+
+* user_lists and xuser_lists
+
+* qconf -sprj1 ; qconf -sprj project_name
+
+* qsub -P project_name options
+
+* project_lists; xproject_lists
+
+* qconf -sm (lists grid engine system managers)
+ 
+* qconf -so (lists system operators)
+
+* qconf -sq { cluster-queue | queue instance | queue domain }
+
+* qconf -sql (lists queue information)
+
+* qconf -sel (lists execution hosts)
+
+* qconf -se host_name
+
+* qhost
+
+* qconf -sh (lists hosts with admin permissions)
+
+* qconf -ss (lists submit hosts)
+
+* qconf -sc (lists resource attributes)
+
+* source sge-root/cell/common/settings.sh
+
+* $HOME/.sge_request    
+
+* $CWD/.sge_request
+
+* #$ will be executed as SGE commands in the script.
+
+* qstat (lists all the jobs on the system)
+
+* #$ -S (shell), -M (Mail address), -m b,e,a,s
+
+* qrsh [options] script arguments 1>stdout 2>stderr
+
+* qstat, qstat -f, qstat -ext
+
+* qdel - only for deletion of the job
+
+* qmod - Suspend, resume etc..
+
+* (Page: 101)

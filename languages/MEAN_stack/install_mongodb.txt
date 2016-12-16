@@ -1,0 +1,27 @@
+Installing MONGODB On Linux and MAC:
+------------------------------------
+
+Download MongoDB tar ball.
+Untar the downloaded file.
+
+mkdir -p /data/db
+
+chown -R $USER /data/db
+
+cd mongodb_untarred_folder/bin
+
+./mongod
+
+Testing MongoDB:
+----------------
+
+cd mongodb/bin
+./mongo
+
+-> It will open a shell. Type commands,
+
+> db.articles.insert( { title: "Hello World" } )
+> db.articles.find()
+
+-> should output { _id: ObjectId(""), title: "Hello World" }
+

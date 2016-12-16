@@ -1,0 +1,7 @@
+Ich = I, me
+Wir = we
+Du = You
+ihr = You (plural)
+er = He 
+Sie = She
+

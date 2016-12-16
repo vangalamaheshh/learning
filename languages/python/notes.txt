@@ -1,0 +1,88 @@
+Python Tutorial Release 3.0.1:
+==============================
+
+import sys; sys.exit(); sys.argv; sys.argv[0..n]; 0 contains the script name;
+
+python3 -c (-c invokes python interpreter i.e., python one liners)
+        -m (for compiling modules)
+
+Exceptions: 
+KeyboardInterrupt; NameError, TypeError, SyntaxError, ValueError, ImportError;  
+
+PYTHONSTARTUP - An env. variable similar to .profile in bash. (works only in interactive mode)
+
+/usr/bin/env python3/python/perl/...
+
+#-----------
+import os;
+
+filename = os.environ.get( 'PYTHONSTARTUP' );
+
+if( filename and os.path.isfile( filename ) ):
+    exec( open( filename ).read( ) );
+#-----------
+
+Operators:
+==========
+// - returns the floor (Ex: 7//3 returns 2)
+=  - assigning operator. Multiple assignment is supported (Ex: a = b = c = 0;)
+ 
+[Page No: 11]
+
+Problem Solving with Algorithms & Datastructures:
+-------------------------------------------------
+abstraction; what is computer science?
+
+import math; math.sqrt() ...
+
+[], +, *, in, [:] (all operations supported by a sequence in python)
+
+count, lower, upper, find, split, rjust(num), ljust( num ) - methods in string class
+
+By default, split() splits the string at all whitespace characters.
+
+Sets - {}, methods: union, intersection, difference, issubset, add, remove, pop, clear
+
+Dictionaries - {}, access by [], del( dictionary[key] ), keys(), values(), items(), get( key ), get( key, alt )
+
+
+
+[Page No: 37]
+
+Dive into Python3:
+------------------
+
+sys.path
+named arguments in a function
+Everything is an object
+try except raise
+import
+array methods: count, index, in, del, remove, pop
+tuple: index, in, (single_tuple,), tuple(), list()
+set: set(), {1,2}, add, update, discard, remove, pop, clear, in, union, intersection, difference, symmetric_difference, issubset, issuperset 
+dictionary: 
+None - NoneType
+os.path.split - returns dirname and basename
+os.path.splitext( filename.txt ) - returns filename and .txt extension
+os.path.realpath( 'filename' ) - returns absolute path of the file
+list comprehension: [ (element, element * 2) for element in list if element > 0 ]
+ 
+[Page No: 166]
+
+
+Python 3.4.1 official doc (tutorial):
+---------------------------------------
+import site
+site.getusersitepackages()
+site.getsitepackages()
+
+usercustomize.py
+sitecustomize.py
+
+'/' - division in python always returns float
+'//' - returns int
+'%' - returns remainder
+
+r'rawstring'
+
+

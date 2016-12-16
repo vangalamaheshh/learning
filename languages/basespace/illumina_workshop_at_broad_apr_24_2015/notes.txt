@@ -1,0 +1,34 @@
+Speaker: Raymond Tecotzky, Illumina 2015 Basespace WWDC host
+Topic: Welcome note
+
+Goals:
+To reach out and undestand what kind of apps folks are interested in,
+
+21 illumina apps, 12 basespace labs apps, 33 third party apps.
+
+>90% of all sequence data coming from illumina
+
+
+--------------------------------------
+
+Speaker: Curtis Huttenhower, PhD, Harvard Chan school & associate member @ Broad
+Topic: Basespace ecosystem - Bioinformatics Developer to Developer
+
+NCBI contains ~ 17,000 bacterial genomes (About half final and half draft)
+roughly 55 Milion genes.
+4100 species, >1200 genera, >380 families, 50 phyla
+
+A database with unique marker sequences from Bacterial genes. Done by Nicola.
+
+MetaPhlAn2: Taxonomic profiling using unique marker gene sequences.
+
+ChocolPhlAn : Offline pipeline that pulls unique marker seq DB from Available reference genomes.
+
+~1M markers used for idenitifcation of 184+/-45 markers per species.
+
+-----------------------------------------
+
+Speaker: Greg Roberts, Illumina Basespace Lead developer
+Topic: Overview and Introduction to the Native BaseSpace App Engine
+
+

@@ -1,0 +1,70 @@
+Speaker: Emil Eifrem
+Co-founter of Neo4j
+CEO of Neo4j technologies
+--------------------------
+
+google, ebay, linkedin, facebook, paypal, twitter -> connecting elements and shift in perceptive. 
+
+GraphConnect conf. - San Francisco, London (every year)
+
+Gartner: Competitive Dynamics of Consumer Web Five Graphs deliver a sustainable advantage
+Forrester:
+Interest, Social, Intent, .. , ..
+
+Data is increasing in volume -> and is getting more connected.
+
+Internal Neo4j used from 2000 - 2007; opensourced in 2008; 
+
+3 concepts;
+
+1) Model your data as graph of data and relationships
+2) Use relationship info in real time.
+3) Add new realtionship on the fly
+
+Relational DB's can't handle data relationships well.
+
+NoSQL databases don't handle data relationships.
+
+db-engines.com (measures popularity of databases)
+
+Graph database fundamentals:
+
+nodes, relationships, 
+
+Nodees:
+
+can have lables, name-value props, these are objects in the graph.
+
+Cypher: (SQL for graphs)
+
+Volker Pacher - senior developer of ebay (scotch story)
+--------------------------------------
+
+Speaker: Nicole White, Data Scientist, Neo Technology
+
+Model - NorthWind
+
+Hands on demo of using Neo4j from a csv file.
+
+--------------------------------------------------------------
+
+Speaker: Andreas Kollegger, Product Designer, Neo Technology
+Topic: Graphs in the real world: Top use cases for Graph Databases
+
+
+--------------------------------------------------------------
+
+Speaker: Eddy Wong, CTO, Wanderu.com
+Topic: Graph patterns in a Polyglot solution
+
+MongoDB -> [;Works_with] -> Neo4j
+
+
+Training Sesssion:
+------------------
+
+bit.ly/boston_northwind
+
+bit.ly/dfw_slides
+
+

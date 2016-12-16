@@ -1,0 +1,17 @@
+Golden Helix
+Date: July, 09, 2014
+---------------------
+
+1) A. thaliana data overview:
+
+- downloaded data from Gregor Mendel Institute
+- custom affymetrix 250K SNP chip
+- Genotyped 1307 samples; Covering 214,051 markers.
+- Analysed data was A.thaliana affected by Pseudomonas.
+
+2) Raw Data
+
+- haploid genotypes
+- homozygous diploid genotypes
+- Ref. genome of thliana was downloaded form arabidopsis.org
+
